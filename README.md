@@ -47,5 +47,5 @@ Log-files can be deleted without archiving.
 .\Cleanup-Logs.ps1 -timeLimit 60 -archiveFolder \\server\LogArchive\servername
 	
 	Finds list of folders for archiving in file C:\Scripts\CleanLogFiles\Folders.txt, finds in these folders 
-	log-files older than 60 days, compress them, move compressed files to network folder \\server\LogArchive\servername 
-	and deletes them.
+	log-files older than 60 days, compress them, move compressed files to network folder 
+	\\server\LogArchive\servername and deletes them.
